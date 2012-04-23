@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent" 
+    android:orientation="vertical" android:gravity="center_vertical|center" android:background="#33CCFF">
+    
+    <LinearLayout  android:id="@+id/LinearLayout04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal" >
+    
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:drawableTop="@drawable/logo2"
+    />
+    </LinearLayout>
+    
+    <!--Buttons 
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Setup" android:id="@+id/Activate" android:minWidth="70.sp" android:textColor="#000066"></Button>
+-->
+
+    <!--Tweet Display -->
+<LinearLayout android:id="@+id/LinearLayout06" android:layout_width="wrap_content" android:paddingTop="20.sp" android:paddingBottom="20.sp" android:layout_height="wrap_content" android:gravity="center_horizontal">
+<!-- 
+ <EditText android:id="@+id/TweetDisplay" android:background="@drawable/sntdisplay" android:gravity="center_horizontal" android:singleLine="true" android:minWidth="225.sp" android:maxWidth="225.sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingTop="5.sp" android:paddingBottom="5.sp" android:lines="1" android:maxLength="140" android:paddingLeft="2.sp" android:paddingRight="2.sp" android:layout_marginLeft="2.sp" android:layout_marginRight="2.sp" android:textSize="18.sp"></EditText>
+-->
+<EditText android:id="@+id/TweetDisplay" android:background="@drawable/sntdisplay" android:singleLine="true" android:minWidth="225.sp" android:maxWidth="225.sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:maxLength="80" android:paddingLeft="12.sp" android:paddingRight="2.sp" android:layout_marginRight="10.sp" android:textSize="20.sp" android:textColor="#FFFFFF"></EditText>
+
+</LinearLayout>
+
+    <!--Buttons -->
+<LinearLayout android:id="@+id/LinearLayout05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal" >
+<Button android:layout_width="wrap_content" android:textSize="25.sp" android:background="@drawable/custom_button" android:gravity="center_horizontal" android:layout_height="wrap_content" android:text="Speak" android:id="@+id/Speak" android:minWidth="175.sp" android:minHeight="70.sp" android:textColor="#FFFFFF"></Button>
+
+
+    <!--Buttons -->
+<Button android:layout_width="wrap_content" android:textSize="25.sp" android:background="@drawable/custom_button" android:gravity="center_horizontal" android:layout_height="wrap_content" android:text="Tweet" android:id="@+id/Tweet" android:minWidth="175.sp" android:minHeight="70.sp" android:textColor="#FFFFFF"></Button>
+</LinearLayout>
+
+
+
+
+</LinearLayout>
+

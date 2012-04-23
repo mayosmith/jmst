@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Speak 'n Tweet</string>
+    <string name="app_name">SpeaknTweet</string>
+    <string name="Menu_1">Twitter Login</string>
+    <string name="Menu_2">About</string>
+    
+    
+</resources>

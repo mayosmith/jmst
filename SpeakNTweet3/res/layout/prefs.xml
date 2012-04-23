@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--SpeakNTweet2 Settings Dialog -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/ScrollView01" android:layout_width="wrap_content" android:background="#33CCFF" android:layout_height="wrap_content" android:layout_gravity="right">
+
+<LinearLayout android:id="@+id/LinearLayout01" 
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:scrollbars="vertical" android:orientation="vertical" android:gravity="right">
+
+<!--User Name -->
+<LinearLayout android:id="@+id/LinearLayout06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="fill_horizontal"><TextView android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Username" android:layout_marginRight="8.sp"></TextView>
+<EditText android:id="@+id/EditTextUN" android:singleLine="true" androidPaddingLeft="5" android:minWidth="150.sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:maxLength="80" android:paddingLeft="2.sp" android:paddingRight="2.sp" android:layout_marginRight="10.sp" android:textSize="18.sp" android:textColor="#FFFFFF"></EditText>
+</LinearLayout>
+
+<!--Password-->
+<LinearLayout android:id="@+id/LinearLayout07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="fill_horizontal"><TextView android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Password" android:layout_marginRight="8.sp"></TextView>
+<EditText android:id="@+id/EditTextPW" android:singleLine="true"  androidPaddingLeft="5" android:minWidth="150.sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:maxLength="80" android:paddingLeft="2.sp" android:paddingRight="2.sp" android:layout_marginRight="10.sp" android:textSize="18.sp" android:textColor="#FFFFFF"></EditText>
+</LinearLayout>
+
+
+<!--Buttons -->
+<LinearLayout android:id="@+id/LinearLayout33" android:paddingTop="20.sp" android:layout_width="wrap_content" android:layout_height="100.sp" android:layout_gravity="center"><Button android:layout_width="wrap_content" android:background="@drawable/custom_button" android:layout_height="wrap_content" android:text="Save" android:id="@+id/dSave" android:minWidth="70.sp" android:textColor="#FFFFFF"></Button><Button android:layout_width="wrap_content" android:background="@drawable/custom_button" android:layout_height="wrap_content" android:text="Cancel" android:id="@+id/dCancel" android:minWidth="70.sp" android:textColor="#000000"></Button>
+</LinearLayout>
+
+</LinearLayout>
+</ScrollView>
+
+

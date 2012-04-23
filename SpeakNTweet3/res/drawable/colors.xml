@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<resources>
+<drawable name="dialogbackground">#33CCFF</drawable>
+<drawable name="TextColorLight">#FEFEFE</drawable>
+<drawable name= "Buttoncolor">#B2AFA2</drawable>
+</resources>

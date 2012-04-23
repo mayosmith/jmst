@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--SpeakNTweet2 Setup Splash Screen -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent" 
+    android:orientation="vertical" android:gravity="center_vertical|center" android:background="#33CCFF">
+<!-- 
+android:id="@+id/ScrollView01" android:layout_width="wrap_content" android:background="#33CCFF" android:layout_height="wrap_content" android:layout_gravity="right">
+ -->
+<!-- 
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:drawableTop="@drawable/logo2"
+    />
+ -->    
+    
+<LinearLayout android:id="@+id/LinearLayout10" 
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:scrollbars="vertical" android:orientation="vertical" android:gravity="right">
+
+<!--User Name -->
+<LinearLayout android:id="@+id/LinearLayout11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="fill_horizontal"><TextView android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" Username" android:layout_marginRight="8.sp" android:textSize="20.sp"  android:textColor="#FFFFFF"></TextView>
+<EditText android:id="@+id/SetupUN" android:background="@drawable/sntdisplay" android:singleLine="true" android:minWidth="150.sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:maxLength="80" android:paddingLeft="12.sp" android:paddingRight="2.sp" android:layout_marginRight="10.sp" android:layout_marginLeft="5.sp" android:textSize="20.sp" android:textColor="#FFFFFF"></EditText>
+</LinearLayout>
+
+<!--Password-->
+<LinearLayout android:id="@+id/LinearLayout12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="fill_horizontal"><TextView android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" Password" android:layout_marginRight="8.sp" android:textSize="20.sp"  android:textColor="#FFFFFF"></TextView>
+<EditText android:id="@+id/SetupPW" android:background="@drawable/sntdisplay" android:password="true" android:singleLine="true" android:minWidth="150.sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:maxLength="80" android:paddingLeft="12.sp" android:paddingRight="2.sp" android:layout_marginRight="10.sp" android:textSize="20.sp" android:textColor="#FFFFFF"></EditText>
+</LinearLayout>
+
+<!--Hashtag-->
+<LinearLayout android:id="@+id/LinearLayout12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="fill_horizontal"><TextView android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" Hash Tag" android:layout_marginRight="8.sp" android:textSize="20.sp"  android:textColor="#FFFFFF"></TextView>
+<EditText android:id="@+id/EditTextPre" android:background="@drawable/sntdisplay" android:singleLine="true" android:minWidth="150.sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:maxLength="80" android:paddingLeft="12.sp" android:paddingRight="2.sp" android:layout_marginRight="10.sp" android:textSize="20.sp" android:textColor="#FFFFFF"></EditText>
+</LinearLayout>
+
+<!--Buttons -->
+<LinearLayout android:id="@+id/LinearLayout13" android:paddingTop="20.sp" android:layout_width="wrap_content" android:layout_height="100.sp" android:layout_gravity="center"><Button android:layout_width="wrap_content" android:background="@drawable/custom_button" android:layout_height="wrap_content" android:text="Login" android:id="@+id/dLogin" android:minWidth="70.sp" android:textColor="#FFFFFF"></Button>
+</LinearLayout>
+
+</LinearLayout>
+</LinearLayout>
+
+
